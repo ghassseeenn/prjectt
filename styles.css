@@ -1,0 +1,104 @@
+/* Apply Roboto font to the entire document */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background for a clean look */
+    color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a.nav-link:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-image.jpg'); /* Replace with your image */
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 20px 0 0;
+}
+
+/* Content Sections */
+.content-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.content-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    font-size: 1.2em;
+}
+
+/* Service List */
+.service-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.service-list li {
+    font-size: 1.2em;
+    padding: 10px 0;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.footer a.footer-link {
+    color: #ff6347;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a.footer-link:hover {
+    color: white;
+}
